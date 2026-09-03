@@ -1,0 +1,6 @@
+{
+  "name": "رحلتي مع القرآن",
+  "description": "تطبيق مخصص للأطفال لمساعدتهم على حفظ القرآن الكريم ومتابعة المراجعة والتثبيت والإنجازات بطريقة تربوية جميلة ومشجعة",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

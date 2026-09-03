@@ -1,0 +1,30 @@
+{
+  "short_name": "رحلتي",
+  "name": "رحلتي مع القرآن",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "pwa-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "pwa-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#176B5B",
+  "background_color": "#F8F5EC",
+  "description": "تطبيق مخصص للأطفال لمساعدتهم على حفظ القرآن الكريم ومتابعة المراجعة والتثبيت والإنجازات",
+  "dir": "rtl",
+  "lang": "ar"
+}

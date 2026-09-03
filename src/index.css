@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #176B5B;
+  --color-primary-light: #E7F3EF;
+  --color-gold: #D4A84F;
+  --color-bg-cream: #F8F5EC;
+  --color-text-dark: #26332F;
+  --font-sans: "Cairo", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-cream text-text-dark font-sans;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Hide scrollbar for clean UI but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
